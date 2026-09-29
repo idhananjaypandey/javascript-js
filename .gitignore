@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Build and coverage output
+dist/
+build/
+coverage/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Operating system and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+
+
+# Files excluded from the javascript-array examples
+/javascript-array/index.html
+/javascript-array/index.js
